@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div id="header">
+    <div class="section_1">
+        <nav>
+            <img src="./assets/logo.png" alt="navlogo" class="navlogo">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="designation">
+            <div class="designation_1">            
+                <p>Hi, I'm</p>
+                <h1><span>Vina </span>Zodey </h1>
+                <p class="fsd">Full Stack Developer</p>
+            </div>
+           
+
+           
+        </div>
+        <div class="btn" >
+            
+            <div class="upload">
+                <div class="upload__info">
+                  <svg
+                    t="1581822650945"
+                    class="clip"
+                    viewBox="0 0 1024 1024"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    p-id="3250"
+                    width="20"
+                    height="20"
+                  >
+                    <path
+                      d="M645.51621918 141.21142578c21.36236596 0 41.79528808 4.04901123 61.4025879 12.06298852a159.71594214 159.71594214 0 0 1 54.26367236 35.87255836c15.84503198 16.07739258 27.76959252 34.13726783 35.78356909 54.13513184 7.86071778 19.30572486 11.76635766 39.80291724 11.76635767 61.53607177 0 21.68371583-3.90563989 42.22045875-11.76635767 61.54101586-8.01397729 19.99291992-19.95831275 38.02807617-35.78356909 54.08569313l-301.39672877 302.0839231c-9.21038818 9.22027564-20.15112281 16.48278832-32.74310277 21.77270508-12.29040503 4.81036401-24.54125953 7.19329834-36.82177783 7.19329834-12.29040503 0-24.56103516-2.38293433-36.85638427-7.19329834-12.63647461-5.28991675-23.53271461-12.55737281-32.7381587-21.77270508-9.55151367-9.58117675-16.69042992-20.44775367-21.50573731-32.57995583-4.7856443-11.61804223-7.15869117-23.91339135-7.15869188-36.9255979 0-13.14074708 2.37304688-25.55474854 7.16363524-37.19256639 4.81036401-11.94927954 11.94927954-22.78619408 21.50079395-32.55029274l278.11614966-278.46221923c6.45172119-6.51104737 14.22344971-9.75421118 23.27563501-9.75421119 8.8692627 0 16.54705787 3.24316383 23.03338622 9.75421119 6.47644019 6.49127173 9.73937964 14.18389916 9.73937964 23.08282495 0 9.0521853-3.26293945 16.81896972-9.73937964 23.32012891L366.97489888 629.73773218c-6.32812477 6.2935183-9.48724342 14.08007836-9.48724415 23.30529736 0 9.06701684 3.15417457 16.75964356 9.48724414 23.08776904 6.80273414 6.50610328 14.55963111 9.75915528 23.26574683 9.75915527 8.67150855 0 16.43334961-3.253052 23.27563501-9.76409935l301.37695313-302.04931665c18.93988037-18.96459937 28.40734887-42.04742432 28.40734814-69.25836158 0-27.16149926-9.4674685-50.26409912-28.40734815-69.22869849-19.44415283-19.13269043-42.55664086-28.72375464-69.31274438-28.72375536-26.97363258 0-49.99218727 9.59106422-69.1001587 28.72375536L274.3370815 536.89227319a159.99774146 159.99774146 0 0 0-35.80828883 54.33288526c-8.0337522 19.65179443-12.04321289 40.2824707-12.04321289 61.79809618 0 21.20910645 4.00451661 41.81011963 12.04321289 61.79809547 8.17218018 20.34393287 20.10168481 38.36920166 35.80828883 54.08569312 16.225708 16.06256104 34.30535888 28.13049292 54.23400854 36.15930176 19.91381813 8.0337522 40.47033667 12.06793189 61.64978002 12.0679326 21.13989281 0 41.70135474-4.03417969 61.63000513-12.0679326 19.91876221-8.02386474 38.01818872-20.09674073 54.2241211-36.15435768l300.86773656-301.53515601c6.47644019-6.50115991 14.23828125-9.76904273 23.28057912-9.76904344 8.88903833 0 16.56188941 3.26293945 23.04821776 9.76904344 6.48632836 6.48632836 9.7245481 14.17895508 9.7245481 23.06799269 0 9.09667992-3.23822046 16.8535769-9.7245481 23.37451172L552.40379244 815.35449242c-22.00012231 22.01989722-47.32745362 38.88336158-75.986938 50.49151564C449.10209565 877.14270043 420.37834101 882.78857422 390.21592671 882.78857422c-30.01904297 0-58.74279761-5.64587378-86.20587183-16.94256616-28.6842041-11.60815406-54.00659203-28.47161842-76.00671362-50.49151564a226.19586182 226.19586182 0 0 1-50.13061524-75.90289354A226.86328125 226.86328125 0 0 1 160.9697104 653.04797364c0-30.08331323 5.62115479-58.88122559 16.90795899-86.38385035 11.40545654-28.37768578 28.11566138-53.75939917 50.13061523-76.15997313h0.24719287L530.14164643 189.20135474c15.69177247-15.731323 33.68737817-27.70037818 53.98681641-35.89727735C604.09666377 145.26043701 624.55430562 141.23120141 645.51127583 141.23120141V141.21142578z"
+                      p-id="3251"
+                    ></path>
+                  </svg>
+                  <span class="upload__filename">Resume.pdf</span>
+                </div>
+                <button class="upload__button">
+                  <div class="upload__button__text">Download</div>
+                </button>
+                <div class="upload__hint">Downloading...</div>
+                <div class="upload__progress">
+                  <svg
+                    width="16"
+                    height="16"
+                    class="check"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 13 11"
+                  >
+                    <polyline points="1 5.5 5 9.5 12 1.5"></polyline>
+                  </svg>
+                  Completed
+                </div>
+              </div>
+            
+        </div>
+        <div class="social_media">
+            <img src="./assets/githubicon.png" alt="My github profile" class="sicon" onclick="location.href='https://github.com/vinazodey'">
+            <img src="./assets/linkedinicon.png" alt="My linkedin profile" class="sicon" onclick="location.href='https://linkedin.com/in/vinazodey'">        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="section_2">
+        <div class="row">
+            <div class="about_column1">
+                <img src="./assets/vinaaboutpic1.png" alt="aboutimage" class="aboutimg">
+            </div>
+            <div class="about_column2">
+                <h1 class="subtext">About Me</h1>
+                <p>
+                    I am a Civil Engineering graduate with a passion for web development, eager to make my mark in the tech industry.Proficient in front-end technologies like HTML, CSS, JavaScript, and React, I specialize in creating responsive, user-friendly web applications. With a keen eye for detail and a commitment to continuous learning, I am focused on building innovative, efficient solutions. My ability to adapt, collaborate, and solve complex problems enables me to thrive in dynamic environments. I am eager to leverage my technical skills and dedication to contribute to impactful projects in the tech industry.</p>
+                <div class="aboutdetails_container">
+                    <div class="about_container">
+                        <div class="details_container">
+                            <h2 class="about_subtext">Skills</h2>
+                            <div class="article_container">
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="tick" class="icon">
+                                    <div>
+                                        <h3 class="abouttext">HTML</h3>
+                                        <P>Experienced</P>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="tick" class="icon">
+                                    <div>
+                                        <h3>CSS</h3>
+                                        <P>Experienced</P>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="tick" class="icon">
+                                    <div>
+                                        <h3>JavaScript</h3>
+                                        <P>Intermediate</P>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="tick" class="icon">
+                                    <div>
+                                        <h3>Reactjs</h3>
+                                        <P>Intermediate</P>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="tick" class="icon">
+                                    <div>
+                                        <h3>SQL</h3>
+                                        <P>Experienced</P>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/checkmark.png" alt="tick" class="icon">
+                                    <div>
+                                        <h3>Mongo DB</h3>
+                                        <P>Basic</P>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="details_container">
+                            <h2 class="about_subtext">Education</h2>
+                            <div class="article_container">
+                                <article>
+                                    <img src="./assets/education.png" alt="tick" class="icon">
+                                    <div>
+                                        <h4>Bachlor of Engineering</h4>
+                                        <p><em>civil Engineering</em></p>
+                                        <P style="font-weight: 500;">Kavikulguru Institute of Technology and Science, Ramtek</P>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="./assets/education.png" alt="tick" class="icon">
+                                    <div>
+                                        <h4>Diploma in Polytechnic</h4>
+                                        <p><em>civil Engineering</em></p>
+                                        <P style="font-weight: 500;">Vivekanand Polytechnic of Institute, Sitasaongi</P>
+                                    </div>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>
+<div id="experience">.
+    <div class="section_3">
+        <div class="subtext heading">
+            <p>Hear's My </p>
+            <h2>Experience</h2>
+        </div>
+        <div class="experience_details_container">
+            <div class="about_container">
+                <div class="details_container1">
+                    <div class="article_container">
+                        <article>
+                            <img src="./assets/exp.png" alt="expicon" class="icon">
+                            <div class="arct">
+                                <h4>Field Training at Site G+5 Floor Building <span>Internship</span></h4>
+                                <p><em>July,22 - August,22</em></p>
+                                <p style="margin-top: 10px; font-size: smaller;">During my internship at a G+5 floor building site, 
+                                    I assisted with site supervision, ensuring compliance with design specifications and safety standards.<br>
+                                    I gained practical experience in construction processes, including concrete casting and rebar placement.</p>
+                            </div>
+                        </article>            
+                    </div>            
+                    
+                </div>
+                <div class="details_container1">
+                    <div class="article_container">
+                        <article>
+                            <img src="./assets/exp.png" alt="expicon" class="icon">
+                            <div class="arct">
+                                <h4>ARC Technologies pvt. Ltd.</h4>
+                                <p><em>January,24 - september,24</em></p>
+                                <p style="margin-top: 10px; font-size: smaller;">I gained expertise in front-end technologies like HTML, CSS, JavaScript,
+                                     and back-end tools such as Node.js and MongoDB.<br> This experience equipped me with the skills to build
+                                      dynamic, responsive web applications.</p>
+                            </div>
+                         </article>
+                    </div>    
+
+                </div>
+                <div class="details_container1">
+                    <div class="article_container">
+                        <article>
+                            <img src="./assets/exp.png" alt="expicon" class="icon">
+                            <div class="arct">
+                                <h4>Self Employied</h4>
+                                <p><em>Present</em></p>
+                                <p style="margin-top: 10px; font-size: smaller;">As a self-employed professional, I manage my own projects,
+                                     applying my technical skills in web development<br>
+                                     and other areas to deliver customized solutions for clients.
+                                      manage time effectively,and continuously improve my expertise.</p>
+                            </div>
+                        </article>     
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="heading ttheading"><h2>Tools and Technologies</h2>
+        </div>
+        <div class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./assets/imgs/autocad.png" alt="logo1" width="100" height="100px">
+                    <img src="./assets/imgs/azure.png" alt="logo2"  width="100" height="100px">
+                    <img src="./assets/imgs/docker.png" alt="logo3"  width="100" height="100px">
+                    <img src="./assets/imgs/firebase.png" alt="logo4"  width="100" height="100px">
+                    <img src="./assets/imgs/github.png" alt="logo5"  width="100" height="100px">
+                    <img src="./assets/imgs/photoshop.png" alt="logo6"  width="100" height="100px">
+                    <img src="./assets/imgs/premiere.png" alt="logo7"  width="100" height="100px">
+                    <img src="./assets/imgs/stadd.png" alt="logo8"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode figma.png" alt="logo9"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode.png" alt="logo10"  width="100" height="100px">
+                    <img src="./assets/imgs/autocad.png" alt="logo1" width="100" height="100px">
+                    <img src="./assets/imgs/azure.png" alt="logo2"  width="100" height="100px">
+                    <img src="./assets/imgs/docker.png" alt="logo3"  width="100" height="100px">
+                    <img src="./assets/imgs/firebase.png" alt="logo4"  width="100" height="100px">
+                    <img src="./assets/imgs/github.png" alt="logo5"  width="100" height="100px">
+                    <img src="./assets/imgs/photoshop.png" alt="logo6"  width="100" height="100px">
+                    <img src="./assets/imgs/premiere.png" alt="logo7"  width="100" height="100px">
+                    <img src="./assets/imgs/stadd.png" alt="logo8"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode figma.png" alt="logo9"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode.png" alt="logo10"  width="100" height="100px">
+                    <img src="./assets/imgs/autocad.png" alt="logo1" width="100" height="100px">
+                    <img src="./assets/imgs/azure.png" alt="logo2"  width="100" height="100px">
+                    <img src="./assets/imgs/docker.png" alt="logo3"  width="100" height="100px">
+                    <img src="./assets/imgs/firebase.png" alt="logo4"  width="100" height="100px">
+                    <img src="./assets/imgs/github.png" alt="logo5"  width="100" height="100px">
+                    <img src="./assets/imgs/photoshop.png" alt="logo6"  width="100" height="100px">
+                    <img src="./assets/imgs/premiere.png" alt="logo7"  width="100" height="100px">
+                    <img src="./assets/imgs/stadd.png" alt="logo8"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode figma.png" alt="logo9"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode.png" alt="logo10"  width="100" height="100px">
+                    <img src="./assets/imgs/autocad.png" alt="logo1" width="100" height="100px">
+                    <img src="./assets/imgs/azure.png" alt="logo2"  width="100" height="100px">
+                    <img src="./assets/imgs/docker.png" alt="logo3"  width="100" height="100px">
+                    <img src="./assets/imgs/firebase.png" alt="logo4"  width="100" height="100px">
+                    <img src="./assets/imgs/github.png" alt="logo5"  width="100" height="100px">
+                    <img src="./assets/imgs/photoshop.png" alt="logo6"  width="100" height="100px">
+                    <img src="./assets/imgs/premiere.png" alt="logo7"  width="100" height="100px">
+                    <img src="./assets/imgs/stadd.png" alt="logo8"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode figma.png" alt="logo9"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode.png" alt="logo10"  width="100" height="100px">
+                    <img src="./assets/imgs/autocad.png" alt="logo1" width="100" height="100px">
+                    <img src="./assets/imgs/azure.png" alt="logo2"  width="100" height="100px">
+                    <img src="./assets/imgs/docker.png" alt="logo3"  width="100" height="100px">
+                    <img src="./assets/imgs/firebase.png" alt="logo4"  width="100" height="100px">
+                    <img src="./assets/imgs/github.png" alt="logo5"  width="100" height="100px">
+                    <img src="./assets/imgs/photoshop.png" alt="logo6"  width="100" height="100px">
+                    <img src="./assets/imgs/premiere.png" alt="logo7"  width="100" height="100px">
+                    <img src="./assets/imgs/stadd.png" alt="logo8"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode figma.png" alt="logo9"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode.png" alt="logo10"  width="100" height="100px">
+                    <img src="./assets/imgs/autocad.png" alt="logo1" width="100" height="100px">
+                    <img src="./assets/imgs/azure.png" alt="logo2"  width="100" height="100px">
+                    <img src="./assets/imgs/docker.png" alt="logo3"  width="100" height="100px">
+                    <img src="./assets/imgs/firebase.png" alt="logo4"  width="100" height="100px">
+                    <img src="./assets/imgs/github.png" alt="logo5"  width="100" height="100px">
+                    <img src="./assets/imgs/photoshop.png" alt="logo6"  width="100" height="100px">
+                    <img src="./assets/imgs/premiere.png" alt="logo7"  width="100" height="100px">
+                    <img src="./assets/imgs/stadd.png" alt="logo8"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode figma.png" alt="logo9"  width="100" height="100px">
+                    <img src="./assets/imgs/vscode.png" alt="logo10"  width="100" height="100px">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div id="project">
+    <div class="section_4">
+        <p class="mr" >My Recent</p>
+        <h1 class="subtext" style="text-align: center;">Project</h1>
+        <div class="project_list">
+            <div class="work">
+                <img src="./assets/project-1.png" alt="project-1">
+                <div class="layer">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>I created my personal portfolio website using HTML, CSS and JavaScript to showcase my web development skills and projects. Featuring a modern, responsive design with interactive elements, it serves as a platform to connect with potential clients and collaborators.</p>
+                    <a href="https://github.com/vinazodey/My-Portfolio"><p><em>learn more...</em></p></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/project-2.png" alt="project-2">
+                <div class="layer">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eveniet labore quod eius distinctio earum, voluptatem quam, delectus possimus tempore, dolor aut soluta fugit repellat eaque molestias corporis incidunt veniam!</p>
+                    <a href=""><p class="learn" ><em >learn more...</em></p></a>
+                </div>    
+            </div>
+            <div class="work">
+                <img src="./assets/project-3.png" alt="project-2" class="proimg">
+                <div class="layer">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eveniet labore quod eius distinctio earum, voluptatem quam, delectus possimus tempore, dolor aut soluta fugit repellat eaque molestias corporis incidunt veniam!</p>
+                    <a href=""><p><em>learn more...</em></p></a>
+                </div>    
+            </div>
+        </div>
+    </div> 
+</div> 
+<div id="contact">
+    <p class="mr">Get in Touch</p>
+    <h1 class="subtext cm" style="text-align: center;">Contact Me</h1>
+    <div class="section5">
+        
+        <div class="row">
+            <div class="contact-left">
+                
+                <p style="text-decoration: none;"><a href="mailto:veenazodey21@gmail.com"><i class="fa-solid fa-envelope"></i>veenazodey21@gmail.com</a></p>
+                <p><a href="tel:7972107696"><i class="fa-solid fa-phone"></i>7972107696</a></p>
+                <div class="socialmedia">
+                    <a href="https://github.com/vinazodey"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vinazodey/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/veenazodey/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.x.com/veenaZ89800"><i class="fa-brands fa-x-twitter"></i></a>   
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="gmsg"></span>
+
+            </div>
+        </div>
+    </div>
+</div>    
+<footer>
+    <p >copyright&#169; 2024 Vina Zodey. All Rights Reserved</p>
+</footer>
+<script src="script.js"></script> 
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzhlUYhMeRErpA5gy4Q32hvMVnnZ89_hDcNIgvvNWboLi_32Xc0ILrxR3tybG-E8M-hqg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const gmsg = document.getElementById('gmsg') // Get the message div
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+  
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          gmsg.innerHTML = 'Success! Your message has been sent.' // Show success message
+          form.reset() // Optionally reset the form after submission
+          
+          // Remove message after 3 seconds
+          setTimeout(() => {
+            gmsg.innerHTML = '' // Clear the message after 3 seconds
+          }, 5000)
+        })
+        .catch(error => {
+          gmsg.innerHTML = `Error! ${error.message}` // Show error message
+          
+          // Remove error message after 3 seconds
+          setTimeout(() => {
+            gmsg.innerHTML = '' // Clear the error message after 3 seconds
+          }, 5000)
+        })
+    })
+  </script>
+  <script>
+
+    var sidemeu=document.getElementById("sidemenu")
+    function openmenu()
+    {
+        sidemeu.style.right="0";
+        
+    }
+    function closemenu()
+    {
+        sidemeu.style.right="-200px";
+
+    }
+  </script>
+  
+    
+</body>
+</html>
